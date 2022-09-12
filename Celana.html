@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>UjiLevel</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    div.gallery {
+  margin: 1px;
+  border: 1px solid rgb(1, 17, 8);
+  float: left;
+  width: 150px;
+}
+
+div.gallery:hover {
+  border: 1px solid rgb(1, 12, 1);
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header {
+  background-color: rgb(2, 21, 34);
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: rgb(24, 111, 168);
+}
+
+
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; 
+  background: rgb(1, 17, 8);
+  padding: 20px;
+}
+
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px;
+}
+
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+footer {
+  background-color: rgb(206, 83, 2);
+  padding: 5px;
+  color: rgb(61, 4, 4);
+}
+
+
+@media (max-width: 400px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2></h2>
+<p></p>
+<p></p>
+
+<header>
+    
+  <h3>Toko Baju 🧥 Babeh Cyber</h3>
+</header>
+
+<section>
+  <nav>
+    <ul>
+        <div class="gallery">
+            <a target="_blank" href="asset/balencia.png">
+              <img src="asset/balencia.png" alt="Kemeja" width="600" height="100">
+            </a>
+            <div class="desc"></div>
+          </div>
+    </ul>
+  </nav>
+  
+  <article>
+    <div class="gallery">
+        <a target="_blank" href="asset/Celana.jpg">
+          <img src="asset/Celana.jpg" alt="Celana" width="600" height="400">
+        </a>
+        <div class="desc">Celana Gucci </div>
+      </div>
+      
+     
+  </article>
+</section>
+
+<footer>
+  <div style = "position:relative; left:0px; top:2px;">
+    <p>nama   : Guntur Akasah</p>
+    <p>kelas  : XII RPL 1</p>
+    <p>github : ncitcoding</p></div>
+         <div style = "position:relative; left:390px; top:-100px;"><h3>@RPL 1.2022</h3></div> 
+        <div style = "position:relative; left:950px; top:-150px;"><h3>contact</h3>
+        <p><i class="fa-solid fa-location"></i> Alamat : Citayem</p>
+        <p><i class="fa-solid fa-phone"></i>Telepon : 08123990</p>
+        <p><i class="fa-solid fa-home"></i>Nama Toko: Toko Baju Babeh</p>
+        <p><i class="fa-solid fa-blog"></i>Web</p></div>
+    </div>
+</div>
+</footer>
+
+</body>
+</html>
+
